@@ -9,6 +9,7 @@ var customerController=function (req, res) {
             {firstName:'pramod',lastName:'desai',account_type:'saving',acc_no:"1234556",company:"infoway"},
 			{firstName:'Rahul',lastName:'shahane',account_type:'saving',acc_no:"45631456",company:"Amdocs"},
 			{firstName:'vinod',lastName:'Rane',account_type:'current',acc_no:"45631455",company:"infosis"},
+			{firstName:'sachin',lastName:'patil',account_type:'current',acc_no:"45631455",company:"infosis"}
       ];
   res.send(customers);
 };

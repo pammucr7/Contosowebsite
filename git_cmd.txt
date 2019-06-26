@@ -1,0 +1,76 @@
+
+
+
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117
+$ git init
+Initialized empty Git repository in C:/Users/dac/Desktop/pramod desai_1117/.git/
+===================================================================================
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Constoso/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+====================================================================================
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$ git add .
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Constoso/customerservice/server.js
+
+
+===================================================================================
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$  git config --global user.name "Your Name"
+===================================================================
+
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$  git config --global user.name "pammucr7"
+=====================================================================================
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$  git config --global user.email "pramoddesai.091@gmail.com"
+===================================================================================
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$ git commit -m "second"
+On branch master
+nothing to commit, working tree clean
+===============================================================================
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$ git remote add origin https://github.com/pammucr7/Contosowebsite.git
+==========================================================================
+
+dac@FEB6 MINGW64 ~/Desktop/pramod desai_1117 (master)
+$ git push  -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 666 bytes | 666.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/pammucr7/Contosowebsite.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+========================================================================
+
+

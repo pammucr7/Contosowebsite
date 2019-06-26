@@ -1,0 +1,42 @@
+*contoso is a multinational company has their 12 office all 	over world.
+
+*They required to build and host website for all employees to access Corporate Cutomers accounting releted information .
+
+*Company wanted to build and host this information System in public cloud Google cloud Plateform or aws.
+=====================================================================================
+
+#List of Functional Requirment
+-----------------------------
+	* actor admin , customer, employee is there
+	
+	* admin give authentication and autheriztion permision to employee and 		customer.
+	
+	* The Employee is the actor who have authority to access corporate 	cutomers information.
+
+	*company Want to aceess the Employee to access
+	account related information.
+	
+	Corporate_Customers_Account();
+
+	*company also have employee information of all 12 office in the world.
+	
+	Employees_info();
+	
+	*Company want to host the web site on google cloud 
+	that need micro-services.
+	
+	* also company has detail of all 12 branches. 
+===================================================================================
+#List of non-Functional Requirment
+-----------------------------------
+	* Scalability :
+		Syetem should be scalable
+		so its uses the cloud.
+	* Loadbalncing :
+			its use webservices so its having loadbalncing
+	*maintanable:
+		its need to be maintanable use aws google cloud platform
+	*accessiblity:
+		website where any authorize person can access from anywhere at 	any 		time
+	* its access 24/7 for employee to access Corporate
+	account information.
